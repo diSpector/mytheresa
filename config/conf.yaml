@@ -1,0 +1,19 @@
+storage: 
+  host: db
+  port: 5432
+  user: "postgres"
+  password: "password"
+  database: "mytheresa"
+
+cache:
+  host: redis
+  port: 6379
+  user: "redis"
+  password: "password"
+  database: 0
+  ttl: 600s
+
+http_server:
+  address: ":8082"
+  timeout: 4s
+  idle_timeout: 60s
